@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+body{
+    font-family:DM Serif Text ;
+    font-style: italic;
+    font-size: smaller;
+    background-image: linear-gradient(to right,#595245,#D9B89C);
+}
+h1{
+    color: #5b2301;
+    font: 3em 'Kaushan Script';
+    text-shadow:2px 3px 3px #54210183;
+}
+main{
+    background-color: #F2E0D5;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 3px 2px #5121038f;
+
+}
+p{
+    text-align: justify;
+}
