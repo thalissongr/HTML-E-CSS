@@ -11,6 +11,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         th, td{
             border: 1px solid black;
@@ -26,6 +27,11 @@
         thead, tfoot{
             background-color: gray;
             color: white;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
         }
          tbody > tr:nth-child(odd){ /* 2n-1*/
             background-color: white;
@@ -57,7 +63,7 @@
             <thead>
                 <tr>
                     <th scope="col">Estado</th>
-                    <th scope="" style="width: 50px;">População</th>
+                    <th scope="col" style="width: 50px;">População</th>
                 </tr>
             </thead>
             <tbody>
