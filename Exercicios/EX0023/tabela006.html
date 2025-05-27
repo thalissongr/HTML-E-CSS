@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Responsivas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse; /* Para bordas colapsadas, mencionado em outros vídeos mas relevante para tabelas */
+        }
+
+        caption {
+            font-size: 1.5em; /* Exemplo de estilo para caption, mencionado em [2] */
+            font-weight: bold;
+            padding: 10px;
+        }
+        
+        th, td {
+            border: 1px solid black; /* Bordas das células, mostrado em [3] */
+            padding: 10px;
+        }
+
+        /* Estilo zebrado para linhas alternadas, mencionado em outros vídeos */
+        tbody tr:nth-child(even) {
+            background-color: #ddd;
+        }
+
+        /* --- Código para Responsividade --- */
+        div#container {
+            /* Uma única configuração */
+            overflow-x: auto; /* Adiciona barra de rolagem horizontal se o conteúdo transbordar [1] */
+        }
+        /* ------------------------------- */
+    </style>
+</head>
+<body>
+
+    <h1>Tabelas em Telas Pequenas</h1>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus consectetur eveniet, impedit iure tempora rem laudantium perspiciatis nisi, architecto veritatis animi ad, cumque dolor. Non libero ipsa dolore natus sed?</p>
+
+    <!-- A DIV CONTÊINER PARA RESPONSIVIDADE -->
+    <div id="container">
+        <table>
+            <caption>Tabela Responsiva</caption> 
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Jan</th>
+                    <th>Fev</th>
+                    <th>Mar</th>
+                    <th>Abr</th>
+                    <th>Mai</th>
+                    <th>Jun</th>
+                    <th>Jul</th>
+                    <th>Ago</th>
+                    <th>Set</th>
+                    <th>Out</th>
+                    <th>Nov</th>
+                    <th>Dez</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Exemplo de Conteúdo do tbody, baseado na descrição da fonte [1] -->
+                <tr>
+                    <td>TV 40"</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>07</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>05</td>
+                    <td>02</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Home Theater</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>07</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>05</td>
+                    <td>02</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Samsung Galaxy S20</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>07</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>05</td>
+                    <td>02</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>iPad Mini</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>07</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>05</td>
+                    <td>02</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>PlayStation 4</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>07</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>05</td>
+                    <td>02</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Lava Louças</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>07</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>05</td>
+                    <td>02</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Amazon Echo Dot</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>07</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>05</td>
+                    <td>02</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>16</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- FIM DA DIV CONTÊINER -->
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus consectetur eveniet, impedit iure tempora rem laudantium perspiciatis nisi, architecto veritatis animi ad, cumque dolor. Non libero ipsa dolore natus sed?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus consectetur eveniet, impedit iure tempora rem laudantium perspiciatis nisi, architecto veritatis animi ad, cumque dolor. Non libero ipsa dolore natus sed?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus consectetur eveniet, impedit iure tempora rem laudantium perspiciatis nisi, architecto veritatis animi ad, cumque dolor. Non libero ipsa dolore natus sed?</p>
+    <p>lorem200</p>
+
+</body>
+</html>
