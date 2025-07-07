@@ -20,6 +20,7 @@ Grandes telas: acima de 1200px
     }
     main{
         border: 2px solid black;
+        
     }
     main::after{
         content: 'Essa impressão foi feita através do site www.cursoemvideo.com';
@@ -45,6 +46,9 @@ Grandes telas: acima de 1200px
     img#print{ display: none;}
     img#pc{ display: none;}
     img#tv{ display: none;}
+    main{
+        width: 400px;
+    }
 }
 @media screen and (min-width: 992px ) and (max-width: 1200px) { /*DESKTOP*/
     body{
@@ -55,6 +59,10 @@ Grandes telas: acima de 1200px
     img#print{ display: none;}
     img#pc{ display: block;}
     img#tv{ display: none;}
+
+    main{
+        width: 600px;
+    }
 }
 @media screen and (min-width: 1200px) { /* GRANDES TELAS*/
     body{
@@ -65,4 +73,8 @@ Grandes telas: acima de 1200px
     img#print{ display: none;}
     img#pc{ display: none;}
     img#tv{ display: block;}
+
+    main{
+        width: 800px;
+    }
 }
